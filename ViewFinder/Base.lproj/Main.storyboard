@@ -13,7 +13,7 @@
         <!--Add Some Photos!-->
         <scene sceneID="KQs-J1-Fsa">
             <objects>
-                <viewController id="rgi-Fk-361" sceneMemberID="viewController">
+                <viewController id="rgi-Fk-361" customClass="AddPhotoViewController" customModule="ViewFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="36C-7N-Xny">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,15 +42,43 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="41"/>
                                 <state key="normal" title="Save"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2pu-YI-omW">
+                                <rect key="frame" x="40" y="566" width="54" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Camera"/>
+                                <connections>
+                                    <action selector="CameraTapped:" destination="rgi-Fk-361" eventType="touchUpInside" id="PRS-wH-tNK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ah-7m-yHD">
+                                <rect key="frame" x="317" y="566" width="52" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Albums"/>
+                                <connections>
+                                    <action selector="AlbumsTapped:" destination="rgi-Fk-361" eventType="touchUpInside" id="LZc-ui-xoQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CFo-5p-teW">
+                                <rect key="frame" x="165" y="566" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Photo Library"/>
+                                <connections>
+                                    <action selector="PhotoAlbumTapped:" destination="rgi-Fk-361" eventType="touchUpInside" id="XyY-vn-K1A"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="MbK-Cf-sq7"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add Some Photos!" id="8aI-sR-7Sh" userLabel="Add New Photo"/>
+                    <connections>
+                        <outlet property="ImageView" destination="CFo-5p-teW" id="cde-yM-gWA"/>
+                        <outlet property="imageView" destination="ql7-ZM-NCf" id="v7e-bi-F8V"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="thK-fg-HD6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1565" y="-85"/>
+            <point key="canvasLocation" x="1204" y="-113"/>
         </scene>
         <!--Cloud9-->
         <scene sceneID="agu-RZ-dU6">
@@ -78,7 +106,7 @@
                     <navigationItem key="navigationItem" title="Cloud9" id="gbq-fz-oCu">
                         <barButtonItem key="rightBarButtonItem" title="Add New Photo" id="5Q4-lM-VbV">
                             <connections>
-                                <segue destination="rgi-Fk-361" kind="show" id="jmn-er-npc"/>
+                                <segue destination="rgi-Fk-361" kind="show" id="xxE-gt-1LK"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -103,7 +131,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fDq-sr-NPC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-33.333333333333336" y="172.76785714285714"/>
+            <point key="canvasLocation" x="-497" y="-101"/>
         </scene>
     </scenes>
     <resources>

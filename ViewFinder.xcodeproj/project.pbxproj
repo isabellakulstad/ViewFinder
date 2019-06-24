@@ -14,6 +14,7 @@
 		18C2860D22C1405A00A6684A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C2860B22C1405A00A6684A /* LaunchScreen.storyboard */; };
 		18C2861822C1405A00A6684A /* ViewFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2861722C1405A00A6684A /* ViewFinderTests.swift */; };
 		18C2862322C1405A00A6684A /* ViewFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2862222C1405A00A6684A /* ViewFinderUITests.swift */; };
+		18C2863322C14DC600A6684A /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2863222C14DC600A6684A /* AddPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		18C2861E22C1405A00A6684A /* ViewFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C2862222C1405A00A6684A /* ViewFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFinderUITests.swift; sourceTree = "<group>"; };
 		18C2862422C1405A00A6684A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C2863222C14DC600A6684A /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		18C285F322C1405800A6684A = {
 			isa = PBXGroup;
 			children = (
+				18C2863222C14DC600A6684A /* AddPhotoViewController.swift */,
 				18C285FE22C1405800A6684A /* ViewFinder */,
 				18C2861622C1405A00A6684A /* ViewFinderTests */,
 				18C2862122C1405A00A6684A /* ViewFinderUITests */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C2860822C1405800A6684A /* ViewFinder.xcdatamodeld in Sources */,
+				18C2863322C14DC600A6684A /* AddPhotoViewController.swift in Sources */,
 				18C2860022C1405800A6684A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
