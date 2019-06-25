@@ -72,7 +72,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Add Some Photos!" id="8aI-sR-7Sh" userLabel="Add New Photo"/>
                     <connections>
-                        <outlet property="ImageView" destination="CFo-5p-teW" id="cde-yM-gWA"/>
+                        <outlet property="captionText" destination="Ut8-7E-c5l" id="akF-WC-85S"/>
                         <outlet property="imageView" destination="ql7-ZM-NCf" id="v7e-bi-F8V"/>
                     </connections>
                 </viewController>
@@ -83,7 +83,7 @@
         <!--Cloud9-->
         <scene sceneID="agu-RZ-dU6">
             <objects>
-                <tableViewController id="Hfa-aP-H7L" sceneMemberID="viewController">
+                <tableViewController id="Hfa-aP-H7L" customClass="PhotosListViewController" customModule="ViewFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="yTa-o9-AuG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,7 +92,7 @@
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="3pP-Ih-kLa">
                                 <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3pP-Ih-kLa" id="0KA-KV-O0h">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3pP-Ih-kLa" id="0KA-KV-O0h" customClass="SKView">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
@@ -113,7 +113,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="voI-Qm-sZa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="396" y="-112"/>
+            <point key="canvasLocation" x="395.6521739130435" y="-112.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="e48-Tk-AFE">

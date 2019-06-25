@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181838F722C263ED00E913BB /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181838F622C263ED00E913BB /* AddPhotoViewController.swift */; };
 		18C2860022C1405800A6684A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C285FF22C1405800A6684A /* AppDelegate.swift */; };
 		18C2860522C1405800A6684A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C2860322C1405800A6684A /* Main.storyboard */; };
 		18C2860822C1405800A6684A /* ViewFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18C2860622C1405800A6684A /* ViewFinder.xcdatamodeld */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181838F622C263ED00E913BB /* AddPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPhotoViewController.swift; path = ../../../.Trash/AddPhotoViewController.swift; sourceTree = "<group>"; };
 		18C285FC22C1405800A6684A /* ViewFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C285FF22C1405800A6684A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C2860422C1405800A6684A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,7 +81,6 @@
 		18C285F322C1405800A6684A = {
 			isa = PBXGroup;
 			children = (
-				18C2863222C14DC600A6684A /* AddPhotoViewController.swift */,
 				18C285FE22C1405800A6684A /* ViewFinder */,
 				18C2861622C1405A00A6684A /* ViewFinderTests */,
 				18C2862122C1405A00A6684A /* ViewFinderUITests */,
@@ -100,12 +101,14 @@
 		18C285FE22C1405800A6684A /* ViewFinder */ = {
 			isa = PBXGroup;
 			children = (
+				18C2863222C14DC600A6684A /* AddPhotoViewController.swift */,
 				18C285FF22C1405800A6684A /* AppDelegate.swift */,
 				18C2860322C1405800A6684A /* Main.storyboard */,
 				18C2860922C1405A00A6684A /* Assets.xcassets */,
 				18C2860B22C1405A00A6684A /* LaunchScreen.storyboard */,
 				18C2860E22C1405A00A6684A /* Info.plist */,
 				18C2860622C1405800A6684A /* ViewFinder.xcdatamodeld */,
+				181838F622C263ED00E913BB /* AddPhotoViewController.swift */,
 			);
 			path = ViewFinder;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C2860822C1405800A6684A /* ViewFinder.xcdatamodeld in Sources */,
+				181838F722C263ED00E913BB /* AddPhotoViewController.swift in Sources */,
 				18C2863322C14DC600A6684A /* AddPhotoViewController.swift in Sources */,
 				18C2860022C1405800A6684A /* AppDelegate.swift in Sources */,
 			);
